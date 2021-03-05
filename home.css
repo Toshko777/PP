@@ -1,0 +1,105 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.navbar{
+  background-color: #7400b8;
+  top: 0%;
+  border-style:none;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  left: 0px;
+  height: 10%;
+  width: 100%;
+}
+.footerbar{
+  background-color: #7400b8;
+  top: 85%;
+  left: 0px;
+  height: 15%;
+  width: 100%;
+  position: absolute;
+
+  border-style:none;
+  padding: 0;
+  margin: 0;
+}
+.mostwatched{
+  background-color: #5390d9;
+  top: 30%;
+  left: 0px;
+  height: 25%;
+  width: 100%;
+  position: absolute;
+
+  border-style:none;
+  padding: 0;
+  margin: 0;
+
+  opacity: 0.5;
+}
+.recommended{
+  background-color: #6930c3;
+  top: 57%;
+  left: 0px;
+  height: 25%;
+  width: 100%;
+  position: absolute;
+
+  border-style:none;
+  padding: 0;
+  margin: 0;
+
+  opacity: 0.5;
+}
+.logo_button{
+  background-color: green;
+  top: 2%;
+  left: 45%;
+  height: 7%;
+  width: 7%;
+  position: absolute;
+
+  border-style: 1px solid red;
+  border-radius: 40%;
+  padding: 0;
+  margin: 0;
+}
+.song_button{
+  background-color: green;
+  top: 20%;
+  left: 45%;
+  height: 7%;
+  width: 7%;
+  position: absolute;
+
+  border-style: 1px solid red;
+  border-radius: 40%;
+  padding: 0;
+  margin: 0;
+}
+.backgroundfill{
+  background-color: #80ffdb;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
