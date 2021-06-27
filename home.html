@@ -1,18 +1,91 @@
-<!DOCTYPE html>
+<!DOSCTYPE html>
 <html>
   <head>
     <title>VBVS</title>
     <link rel="stylesheet" href="home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="/favicon_1.ico">
   </head>
   <body>
 
     <div class="backgroundfill"></div>
-    <div class="navbar"></div>
-    <button type="button" class="logo_button" onclick="location.href='home.html'"></button>
+    <div class="navbar">
+      
+          <nav>
+            <ul>
+              <li onclick="location.href='home.html'">
+                Home
+                <span></span><span></span><span></span><span></span>
+              </li>
+              <li onclick="location.href='account_page_info/account_page_info.html'">
+                About us
+                <span></span><span></span><span></span><span></span>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    <button type="button" class="logo_button" onclick="location.href='home.html'">HOME
+    VBVS
+    </button>
     <button type="button" class="song_button" onclick="location.href='../spotify_clone_VBVS/song_player/song_player.html'"></button>
     <div class="mostwatched"></div>
     <div class="recommended"></div>
     <div class="footerbar"></div>
+    
+    <input type="text" class="search_bar" id="s_b" placeholder="    Search.." name="search">
+    <button type="button" class="search_button" onclick="search()"></button>
+    <div class="footerbar"></div>
+
+<!---------------------------------------------------------------------------->
+<!--Toshko's masterpiece-->
+
+    <div class="main">
+      <p id="logo"><i class=></i>VBVS</p>
+      
+      <!--- left part --->
+       <div class="left">
+  
+        <!--- song img --->
+        <img id="track_image">
+           <div class="volume">
+              <p id="volume_show">90</p>
+              <i class="fa fa-volume-up" aria-hidden="true" onclick="mute_sound()" id="volume_icon"></i>
+              <input type="range" min="0" max="100" value="90" onchange="volume_change()" id="volume">  
+           </div>
+  
+       </div>
+   
+  
+       <!--- right part --->
+       <div class="right">
+  
+          <div class="show_song_no">
+            <p id="present"></p>
+            <p></p>
+            <p id="total"></p>
+          </div>
+  
+         <!--- song title & artist name --->
+        <p id="title">title.mp3</p>
+        <p id="artist">Artist name</p>
+  
+        <!--- middle part --->
+         <div class="middle">
+             <button onclick="previous_song()" id="pre"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+             <button onclick="justplay()" id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+             <button onclick="next_song()" id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+         </div>
+  
+         <!--- song duration part --->
+          <div class="duration">
+             <input type="range" min="0" max="100" value="0" id="duration_slider" onchange="change_duration()">
+          </div>
+             <button id="auto" onclick="autoplay_switch()">Auto play <i class="fa fa-circle-o-notch" aria-hidden="true"></i></button>
+      </div>
+    </div>
+     
+    <!--- Add javascript file --->
+    <script src="script.js"></script>
   </body>
 </html>

@@ -5,28 +5,20 @@ html {
   width: 100%;
   left: 0;
   top: 0;
+  box-sizing: border-box;
+  overflow:auto;
 }
 body {
+  
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 100%;
   left: 0;
   top: 0;
 }
-.navbar{
-  background-color: #7400b8;
-  top: 0%;
-  border-style:none;
-  position: absolute;
-  padding: 0;
-  margin: 0;
-  left: 0px;
-  height: 10%;
-  width: 100%;
-}
-.footerbar{
-  background-color: #7400b8;
+
+
+/*.footerbar{
+  background-color: black;
   top: 85%;
   left: 0px;
   height: 15%;
@@ -36,70 +28,157 @@ body {
   border-style:none;
   padding: 0;
   margin: 0;
+}*/
+@keyframes gradient {
+  0% {
+    background: radial-gradient(circle at center, rgba( 255, 125 , 125, 0 ) 0%, #fff 0%, #fff 100%);
+  }
+  25% {
+    background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.3 ) 24%, #fff 25%, #fff 100%);
+  }
+  50% {
+    background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.5 ) 49%, #fff 50%, #fff 100%);
+  }
+  75% {
+    background: radial-gradient(circle at center, rgba( 255, 125, 125, 0.8 ) 74%, #fff 75%, #fff 100%);
+  }
+  100% {
+    color: #fff;
+    background: radial-gradient(circle at center, #f88 99%, #fff 100%, #fff 100%);
+  }
 }
-.mostwatched{
-  background-color: #5390d9;
-  top: 30%;
-  left: 0px;
-  height: 25%;
-  width: 100%;
-  position: absolute;
 
+
+button {
+  position:absolute;
+  margin-left: calc( 50vw - 175px );
+  margin-top: calc( 5vh - 30px );
+  width: 350px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #666;
+  box-shadow: 0 6px 6px rgb(204, 102, 136);
+  outline: none;
+}
+button:active {
+  animation: gradient 100ms;
+  background: #f88;
+  color: #fff;
+  box-shadow: none;
+}
+.navbar{
+  background-color: rgb(3, 185, 185);
+  top: 0%;
   border-style:none;
+  position: absolute;
   padding: 0;
   margin: 0;
-
-  opacity: 0.5;
-}
-.recommended{
-  background-color: #6930c3;
-  top: 57%;
   left: 0px;
-  height: 25%;
+  height: 10%;
   width: 100%;
-  position: absolute;
-
-  border-style:none;
-  padding: 0;
-  margin: 0;
-
-  opacity: 0.5;
+  overflow: auto; 
 }
-.logo_button{
-  background-color: green;
-  top: 2%;
-  left: 45%;
-  height: 7%;
-  width: 7%;
-  position: absolute;
-
-  border-style: 1px solid red;
-  border-radius: 40%;
-  padding: 0;
-  margin: 0;
-}
-.song_button{
-  background-color: green;
-  top: 20%;
-  left: 45%;
-  height: 7%;
-  width: 7%;
-  position: absolute;
-
-  border-style: 1px solid red;
-  border-radius: 40%;
-  padding: 0;
-  margin: 0;
-}
-.backgroundfill{
-  background-color: #80ffdb;
+body{
+  background-image: linear-gradient(rgb(0, 255, 255),rgb(204, 102, 136));
+  background-attachment: fixed;
   top: 0%;
   left: 0%;
   height: 100%;
   width: 100%;
   position: absolute;
-
   border-style: none;
   padding: 0;
   margin: 0;
 }
+
+.canvas{
+  position:absolute;
+}
+.box{
+	width:60%;
+	height:200px;
+	background:#FFF;
+	margin:100px auto; /* auto- държи текста в средата*/
+	border-radius: 25px;
+}
+.content{
+	text-align: center;
+	padding: 25px;
+	letter-spacing: 2px;
+	color:#666;
+	padding-bottom: 1px;
+  font-family:sans-serif ;
+
+}
+.grid{
+  min-width: 95%;
+  height: 150%;
+  display: grid; /*grid- narejda*/
+  grid-template-columns:repeat(2, 1fr);/*3 x auto = 3 columns*/
+  grid-auto-rows: minmax(100px,auto);
+
+}
+/*container boxes*/
+.sidenav {
+  background-color: #566573;
+  border: 1px solid black;
+  width: 95%;
+  height: 95%;
+  margin-top: 2.5%; 
+  margin-left: 2.5%;
+  
+}
+/* .sidenav-middle{
+  grid-column: 2/ span 1;
+} */
+.profile{
+  margin:50px;
+  max-width: 100;
+  max-height: 100%;
+  width: 400px;
+  height: auto;
+}
+.text_profile{
+ background-color:  #FFF;
+   width: 50%;
+   height: 50%;
+   top:0;
+   left:0;
+}
+/*.textbox_t{
+  text-align:center;
+  color: #FFF;
+  font-family:sans-serif ;
+}*/
+
+/*.textbox{
+  position:absolute;
+  font-size:2em;
+  top:80%;
+  right:2%;
+  left:2%;
+  text-align:center;
+  text-align:center;
+  font-family:sans-serif ;
+  color:white;
+}
+*/
+
+.footer{
+  color:#fff;
+  top: 100%;
+  left: 0px;
+  height: 15%;
+  width: 50%;
+  position: absolute;
+
+  border-style:none;
+  padding: 0;
+  margin: 0;
+}
+
+

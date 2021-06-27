@@ -15,7 +15,7 @@ body {
   top: 0;
 }
 .navbar{
-  background-color: #7400b8;
+  background-color: rgb(3, 185, 185);;
   top: 0%;
   border-style:none;
   position: absolute;
@@ -26,8 +26,8 @@ body {
   width: 100%;
 }
 .footerbar{
-  background-color: #7400b8;
-  top: 85%;
+  background-color: rgb(192, 84, 116);
+  top: 150%;
   left: 0px;
   height: 15%;
   width: 100%;
@@ -37,44 +37,31 @@ body {
   padding: 0;
   margin: 0;
 }
-.mostwatched{
-  background-color: #5390d9;
-  top: 30%;
-  left: 0px;
-  height: 25%;
-  width: 100%;
-  position: absolute;
 
-  border-style:none;
-  padding: 0;
-  margin: 0;
-
-  opacity: 0.5;
-}
-.recommended{
-  background-color: #6930c3;
-  top: 57%;
-  left: 0px;
-  height: 25%;
-  width: 100%;
-  position: absolute;
-
-  border-style:none;
-  padding: 0;
-  margin: 0;
-
-  opacity: 0.5;
-}
 .logo_button{
-  background-color: green;
+  background-color:rgb(3, 185, 185);
+  color:white;
+  font-size:2em;
   top: 2%;
-  left: 45%;
+  left: 46%;
   height: 7%;
-  width: 7%;
+  width: 8%;
   position: absolute;
 
-  border-style: 1px solid red;
-  border-radius: 40%;
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+.logo_button:hover{
+  background-color: rgb(204, 102, 136);
+  transition-duration: 0.2s;
+  top: 2%;
+  left: 46%;
+  height: 7%;
+  width: 8%;
+  position: absolute;
+
+  border-style: none;
   padding: 0;
   margin: 0;
 }
@@ -92,14 +79,244 @@ body {
   margin: 0;
 }
 .backgroundfill{
-  background-color: #80ffdb;
+  background-image: linear-gradient(rgb(0, 255, 255),rgb(204, 102, 136));
   top: 0%;
   left: 0%;
-  height: 100%;
+  height: 150%;
   width: 100%;
   position: absolute;
 
   border-style: none;
   padding: 0;
   margin: 0;
+}
+#b_0{
+  background-color: white;
+  top: 20%;
+  left: 5%;
+  height: 9%;
+  width: 90%;
+  position: absolute;
+  color: #64dfdf;
+  text-transform: uppercase;
+  font-size: 2em;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+#b_1{
+  background-color: white;
+  top: 30%;
+  left: 5%;
+  height: 9%;
+  width: 90%;
+  position: absolute;
+  color: #64dfdf;
+  text-transform: uppercase;
+  font-size: 2em;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+#b_2{
+  background-color: white;
+  top: 40%;
+  left: 5%;
+  height: 9%;
+  width: 90%;
+  position: absolute;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+  color: #64dfdf;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+#b_3{
+  background-color: white;
+  top: 50%;
+  left: 5%;
+  height: 9%;
+  width: 90%;
+  position: absolute;
+  color: #64dfdf;
+  text-transform: uppercase;
+  font-size: 2em;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+#b_4{
+  background-color: white;
+  top: 60%;
+  left: 5%;
+  height: 9%;
+  width: 90%;
+  position: absolute;
+  color: #64dfdf;
+  text-transform: uppercase;
+  font-size: 2em;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+#b_5{
+  background-color: white;
+  top: 70%;
+  left: 5%;
+  height: 9%;
+  width: 90%;
+  position: absolute;
+  color: #64dfdf;
+  text-transform: uppercase;
+  font-size: 2em;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+#b_6{
+  background-color: white;
+  top: 80%;
+  left: 5%;
+  height: 9%;
+  width: 90%;
+  position: absolute;
+  color: #64dfdf;
+  text-transform: uppercase;
+  font-size: 2em;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+#b_7{
+  background-color: white;
+  top: 90%;
+  left: 5%;
+  height: 9%;
+  width: 90%;
+  position: absolute;
+  color: #64dfdf;
+  text-transform: uppercase;
+  font-size: 2em;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+#b_8{
+  background-color: white;
+  top: 100%;
+  left: 5%;
+  height: 9%;
+  width: 90%;
+  position: absolute;
+  color: #64dfdf;
+  text-transform: uppercase;
+  font-size: 2em;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+#b_9{
+  background-color: white;
+  top: 110%;
+  left: 5%;
+  height: 9%;
+  width: 90%;
+  position: absolute;
+  color: #64dfdf;
+  text-transform: uppercase;
+  font-size: 2em;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+#b_10{
+  background-color: white;
+  top: 120%;
+  left: 5%;
+  height: 9%;
+  width: 90%;
+  position: absolute;
+  color: #64dfdf;
+  text-transform: uppercase;
+  font-size: 2em;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+#b_11{
+  background-color: white;
+  top: 120%;
+  left: 5%;
+  height: 9%;
+  width: 90%;
+  position: absolute;
+  color: #64dfdf;
+  text-transform: uppercase;
+  font-size: 2em;
+
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+#b_0:hover{
+  background-color: rgb(204, 102, 136);
+  color: white;
+  transition-duration: 0.4s;
+}#b_1:hover{
+  background-color: rgb(204, 102, 136);
+  color: white;
+  transition-duration: 0.4s;
+}#b_2:hover{
+  background-color: rgb(204, 102, 136);
+  color: white;
+  transition-duration: 0.4s;
+}#b_3:hover{
+  background-color: rgb(204, 102, 136);
+  color: white;
+  transition-duration: 0.4s;
+}#b_4:hover{
+  background-color: rgb(204, 102, 136);
+  color: white;
+  transition-duration: 0.4s;
+}#b_5:hover{
+  background-color: rgb(204, 102, 136);
+  color: white;
+  transition-duration: 0.4s;
+}#b_6:hover{
+  background-color: rgb(204, 102, 136);
+  color: white;
+  transition-duration: 0.4s;
+}#b_7:hover{
+  background-color: rgb(204, 102, 136);
+  color: white;
+  transition-duration: 0.4s;
+}#b_8:hover{
+  background-color: rgb(204, 102, 136);
+  color: white;
+  transition-duration: 0.4s;
+}#b_9:hover{
+  background-color: rgb(204, 102, 136);
+  color: white;
+  transition-duration: 0.4s;
+}#b_10:hover{
+  background-color: rgb(204, 102, 136);
+  color: white;
+  transition-duration: 0.4s;
+}
+#b_11:hover{
+  background-color: rgb(204, 102, 136);
+  color: white;
+  transition-duration: 0.4s;
 }
