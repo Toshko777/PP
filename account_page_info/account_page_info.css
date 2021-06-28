@@ -100,8 +100,8 @@ body{
 }
 .box{
 	width:60%;
-	height:200px;
-	background:#FFF;
+	height:250px;
+  background-color:whitesmoke;
 	margin:100px auto; /* auto- държи текста в средата*/
 	border-radius: 25px;
 }
@@ -109,14 +109,14 @@ body{
 	text-align: center;
 	padding: 25px;
 	letter-spacing: 2px;
-	color:#666;
+	color:#566573;
 	padding-bottom: 1px;
   font-family:sans-serif ;
 
 }
 .grid{
   min-width: 95%;
-  height: 150%;
+  height: 215%;
   display: grid; /*grid- narejda*/
   grid-template-columns:repeat(2, 1fr);/*3 x auto = 3 columns*/
   grid-auto-rows: minmax(100px,auto);
@@ -126,28 +126,62 @@ body{
 .sidenav {
   background-color: #566573;
   border: 1px solid black;
+  border-radius: 25px;
   width: 95%;
   height: 95%;
   margin-top: 2.5%; 
   margin-left: 2.5%;
-  
+  overflow-y:scroll;
+  font-family: 'Times New Roman', Times, serif;
 }
+.sidenav::-webkit-scrollbar {
+  display: none;
+}
+
 /* .sidenav-middle{
   grid-column: 2/ span 1;
 } */
 .profile{
-  margin:50px;
+  border: 3px solid black;
+  margin: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ /*  margin:50px;
   max-width: 100;
   max-height: 100%;
-  width: 400px;
-  height: auto;
+  width: 350px;
+  height: auto; */
 }
-.text_profile{
- background-color:  #FFF;
-   width: 50%;
-   height: 50%;
-   top:0;
-   left:0;
+.title{
+  margin: auto;
+  text-align:center;
+  width: 60%;
+  color:aliceblue;
+  border: 3px solid white;
+  padding: 10px;
+  font-size: 2em;
+}
+.text{
+  margin-top: 2.5%; 
+  margin-left: 2.5%;
+  text-align:center;
+  width: 90%;
+  color:aliceblue;
+  border: 3px solid white;
+  padding: 10px;
+  font-size: 1.2em;
+}
+.text2{
+  margin-top: 2.5%; 
+  margin-left: 2.5%;
+  text-align:justify;
+  width: 90%;
+  color:aliceblue;
+ 
+  padding: 10px;
+  font-size: 1.5em;
 }
 /*.textbox_t{
   text-align:center;
@@ -161,7 +195,6 @@ body{
   top:80%;
   right:2%;
   left:2%;
-  text-align:center;
   text-align:center;
   font-family:sans-serif ;
   color:white;

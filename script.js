@@ -243,7 +243,7 @@ function range_slider(){
 function search(){
  var str=document.getElementById('s_b').value;//suzdavame promenliva ime i vzimame teksta ot search_bar
   var ime = str.toLowerCase();// pravi texta
-  var link1="../PP-main/song_search_page/song_search_page.html?ime="+ime;//suzdavame promenliva link1
+  var link1="../song_search_page/song_search_page.html?ime="+ime;//suzdavame promenliva link1
 
  window.location=link1;//preprashtame kum linka
 }
